@@ -27,7 +27,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/go-redis/redis"
+	"github.com/go-redis/redis/v8"
 )
 
 // RedisAddress points us to our Redis instance.
