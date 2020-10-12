@@ -39,7 +39,7 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	lib "github.com/parazyd/tor-dam/pkg/damlib"
+	lib "github.com/dyne/tor-dam/pkg/damlib"
 )
 
 type msgStruct struct {

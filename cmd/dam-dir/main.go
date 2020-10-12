@@ -30,7 +30,7 @@ import (
 	"sync"
 	"time"
 
-	lib "github.com/parazyd/tor-dam/pkg/damlib"
+	lib "github.com/dyne/tor-dam/pkg/damlib"
 )
 
 // ListenAddress controls where our HTTP API daemon is listening.
