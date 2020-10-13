@@ -72,8 +72,8 @@ func ParseDirs(sl []string, data []byte) []string {
 	dirStr := string(data)
 	_dirs := strings.Split(dirStr, "\n")
 	for _, j := range _dirs {
-		if strings.HasPrefix(j, "DIR:") {
-			t := strings.Split(j, "DIR:")
+		if strings.HasPrefix(j, "TOR:") {
+			t := strings.Split(j, "TOR:")
 			if !(StringInSlice(t[1], sl)) {
 				if ValidateOnionAddress(t[1]) {
 					sl = append(sl, t[1])

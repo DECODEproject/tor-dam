@@ -43,9 +43,9 @@ func TestGzipEncode(t *testing.T) {
 
 func TestParseDirs(t *testing.T) {
 	var sl []string
-	data := `DIR:gphjf5g3d5ywehwrd7cv3czymtdc6ha67bqplxwbspx7tioxt7gxqiid.onion
+	data := `TOR:gphjf5g3d5ywehwrd7cv3czymtdc6ha67bqplxwbspx7tioxt7gxqiid.onion
 # Some random data
-DIR:vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion`
+TOR:vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion`
 
 	sl = ParseDirs(sl, []byte(data))
 

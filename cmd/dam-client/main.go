@@ -231,7 +231,7 @@ func main() {
 	flag.Parse()
 
 	// Network entrypoints. These files hold the lists of nodes we can announce
-	// to initially. Format is "DIR:unlikelynamefora.onion", other lines are
+	// to initially. Format is "TOR:unlikelynamefora.onion", other lines are
 	// ignored and can be used as comments or similar.
 	epLists := strings.Split(*remoteentry, ",")
 
