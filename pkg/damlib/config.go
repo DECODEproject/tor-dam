@@ -23,7 +23,7 @@ package damlib
 import "os"
 
 // Workdir holds the path to the directory where we will Chdir on startup.
-var Workdir = os.Getenv("HOME") + "/.dam"
+var Workdir = os.Getenv("DAM_HOME") + "/dam"
 
 // PrivKeyPath holds the name of where our private key is.
 const PrivKeyPath = "dam-private.key"

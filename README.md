@@ -70,5 +70,5 @@ and the following on the sender's side:
 echo 'HELLO' | torsocks nc <address.onion> 5000
 ```
 
-You can find the onion address either in redis, or in the `.dam`
-directory.
+You can find the onion address either in redis, or in the DAM_HOME
+environmental variable where a directory `dam` is created.
